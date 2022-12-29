@@ -15,9 +15,36 @@ const Header = () => {
             </Link>
           </Navbar.Brand>
           <Nav className="me-auto">
-            <Nav.Link href="#home">Courses</Nav.Link>
-            <Nav.Link href="#features">Pricing</Nav.Link>
-            <Nav.Link href="#pricing">Login</Nav.Link>
+            <Nav.Link href="#courses">
+              <Link className="link-style" to="/courses">
+                Courses
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#courses">
+              <Link className="link-style" to="/teachers">
+                Teachers
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#features">
+              <Link className="link-style" to="/pricing">
+                Pricing
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#blogs">
+              <Link className="link-style" to="/blogs">
+                Blogs
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#contact">
+              <Link className="link-style" to="/contact">
+                Contact
+              </Link>
+            </Nav.Link>
+            <Nav.Link href="#pricing">
+              <Link className="link-style" to="/login">
+                Login
+              </Link>
+            </Nav.Link>
           </Nav>
         </Container>
       </Navbar>
