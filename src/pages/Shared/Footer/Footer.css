@@ -1,0 +1,5 @@
+.hover-style li:hover{
+    color: blue;
+    cursor: pointer;
+    font-weight: bold;
+}
